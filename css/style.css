@@ -6,9 +6,10 @@
 h1 {
     font-family: "Cormorant", serif;
     font-weight: bold;
-    font-size: 116px;
+    font-size: 112px;
     color: #F6E7CB;
     text-shadow: -2px -2px #678D58;
+    white-space: nowrap;
 }
 
 h2 {
@@ -57,7 +58,7 @@ article {
 }
 
 .text {
-    width: 33vw;
+    width: 40vw;
 }
 
 figcaption {
