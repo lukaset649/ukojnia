@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Cormorant", serif;
+    font-weight: bold;
+    font-size: 116px;
+    color: #F6E7CB
+}
+
+h2 {
+    font-family: "Cormorant", serif;
+    font-weight: medium;
+    font-size: 90px;
+    color: #381529;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: light;
+    font-size: 16px;
+    color: #8E6484;
+}
+
+header{
+    height: 100vh;
+    display: flex;
+
+}
+
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: light;
+    color: #381529;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+}
+
+header p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #F6E7CB
+}
+
+section{
+    height: 100vh;
+}
+
+article {
+    display: flex;
+}
+
+.text {
+    width: 33vw;
+}
+
+figcaption {
+    font-family: "Montserrat", sans-serif;
+    font-weight: medium;
+    font-size: 14px;
+    color: #8E6484;
+}
