@@ -7,7 +7,8 @@ h1 {
     font-family: "Cormorant", serif;
     font-weight: bold;
     font-size: 116px;
-    color: #F6E7CB
+    color: #F6E7CB;
+    text-shadow: -2px -2px #678D58;
 }
 
 h2 {
