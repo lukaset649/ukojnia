@@ -44,15 +44,28 @@ nav {
     color: var(--ukojnia-dark);
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-left: 91px;
+    column-gap: 20px;
+}
+
+header nav a {
+    width: 180px;
+    height: 54px;
 }
 
 header p {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     color: var(--ukojnia-beige);
+}
+
+#intro {
+    width: 516px;
+    height: 249px;
 }
 
 section{
