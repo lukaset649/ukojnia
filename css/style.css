@@ -20,6 +20,10 @@ h1 {
     color: var(--ukojnia-beige);
     text-shadow: -2px -2px #678D58;
     white-space: nowrap;
+    height: 200px;
+    width: 514px;
+    vertical-align: super;
+    line-height: 0.8;
 }
 
 h2 {
@@ -39,6 +43,7 @@ p{
 header{
     height: 100vh;
     display: flex;
+    align-items: center;
     background-image: url("../assets/img/intro_background.jpg");
     background-size: cover;
 }
@@ -46,6 +51,7 @@ header{
 nav {
     font-family: "Poppins", sans-serif;
     font-weight: light;
+    font-size: 20px;
     color: var(--ukojnia-dark);
 }
 
@@ -55,7 +61,7 @@ header nav {
     justify-content: center;
     margin-left: 91px;
     gap: 20px;
-    z-index: 1;
+    z-index: 1; /*display over blur effect*/
 }
 
 header nav a {
@@ -72,17 +78,21 @@ header p {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     color: var(--ukojnia-beige);
+    width: 444px;
+    height: 36px;
+    padding-left: 42px;
 }
 
 #intro {
     width: 516px;
     height: 249px;
-    z-index: 1;
+    padding-left: 59px;
+    z-index: 1; /*display over blur effect*/
 }
 
 .blur {
     height: 100vh;
-    width: 50vw;
+    width: 60vw;
     position: absolute;
     background-color: rgba(0,0,0,0.2);
     mask: linear-gradient(to right, black 90%, transparent);
