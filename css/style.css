@@ -1,3 +1,4 @@
+/* GLOBAL */
 :root {
     --ukojnia-light: #8E6484;
     --ukojnia-dark: #381529;
@@ -9,21 +10,16 @@
     padding: 0;
 }
 
+/* GENERAL */
 a {
     text-decoration: none;
 }
 
-h1 {
-    font-family: "Cormorant", serif;
-    font-weight: bold;
-    font-size: 116px;
-    color: var(--ukojnia-beige);
-    text-shadow: -2px -2px #678D58;
-    white-space: nowrap;
-    height: 200px;
-    width: 514px;
-    vertical-align: super;
-    line-height: 0.8;
+nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: light;
+    font-size: 20px;
+    color: var(--ukojnia-dark);
 }
 
 h2 {
@@ -40,19 +36,34 @@ p{
     color: var(--ukojnia-light);
 }
 
+section{
+    height: 100vh;
+}
+
+article {
+    display: flex;
+}
+
+/* HEADER */
+h1 {
+    font-family: "Cormorant", serif;
+    font-weight: bold;
+    font-size: 116px;
+    color: var(--ukojnia-beige);
+    text-shadow: -2px -2px #678D58;
+    white-space: nowrap;
+    height: 200px;
+    width: 514px;
+    vertical-align: super;
+    line-height: 0.8;
+}
+
 header{
     height: 100vh;
     display: flex;
     align-items: center;
     background-image: url("../assets/img/intro_background.jpg");
     background-size: cover;
-}
-
-nav {
-    font-family: "Poppins", sans-serif;
-    font-weight: light;
-    font-size: 20px;
-    color: var(--ukojnia-dark);
 }
 
 header nav {
@@ -102,12 +113,10 @@ header p {
     backdrop-filter: blur(10px);
 }
 
-section{
-    height: 100vh;
-}
+/* WHO AM I */
 
-article {
-    display: flex;
+#whoami {
+    background-color: #F5E2BD;
 }
 
 .text {
@@ -119,8 +128,4 @@ figcaption {
     font-weight: medium;
     font-size: 14px;
     color: var(--ukojnia-light);
-}
-
-#whoami {
-    background-color: #F5E2BD;
 }
