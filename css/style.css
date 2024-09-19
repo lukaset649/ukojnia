@@ -24,7 +24,7 @@ nav {
 
 h2 {
     font-family: "Cormorant", serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 90px;
     color: var(--ukojnia-dark);
 }
@@ -129,8 +129,17 @@ header p {
     background-color: #F5E2BD;
 }
 
+section nav {
+    height: 131px;
+}
+
 .text {
-    width: 40vw;
+    width: 552px;
+    margin-left: 220px;
+    margin-top: 177px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 figcaption {
@@ -138,4 +147,10 @@ figcaption {
     font-weight: medium;
     font-size: 14px;
     color: var(--ukojnia-light);
+}
+
+article {
+    height: calc(100vh - 131px);
+    display: flex;
+    align-items: baseline;
 }
