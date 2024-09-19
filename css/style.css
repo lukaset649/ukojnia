@@ -3,6 +3,7 @@
     --ukojnia-light: #8E6484;
     --ukojnia-dark: #381529;
     --ukojnia-beige: #F6E7CB;
+
 }
 
 * {
@@ -20,6 +21,16 @@ nav {
     font-weight: 300;
     font-size: 20px;
     color: var(--ukojnia-dark);
+    display: flex;
+    flex-direction: row;
+}
+
+nav a {
+    z-index: 1; /*display over svg*/
+}
+
+section nav {
+    height: 131px;
 }
 
 h2 {
@@ -42,6 +53,10 @@ section{
 
 article {
     display: flex;
+}
+
+svg {
+    position: absolute;
 }
 
 /* HEADER */
@@ -129,10 +144,6 @@ header p {
     background-color: #F5E2BD;
 }
 
-section nav {
-    height: 131px;
-}
-
 .text {
     width: 552px;
     margin-left: 220px;
@@ -140,6 +151,7 @@ section nav {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    z-index: 1;
 }
 
 figcaption {
@@ -150,7 +162,11 @@ figcaption {
 }
 
 article {
-    height: calc(100vh - 131px);
+    height: calc(100vh - 131px);    /*height of article = height of viewport - nav bar height*/
     display: flex;
     align-items: baseline;
+}
+
+#whoami svg{
+    fill: var(--ukojnia-beige);
 }
